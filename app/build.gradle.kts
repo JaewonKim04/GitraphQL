@@ -45,4 +45,9 @@ dependencies {
     testImplementation(Dependencies.Test.junit)
     androidTestImplementation(Dependencies.Test.androidXunit)
     androidTestImplementation(Dependencies.Test.espresso)
+
+    implementation(Dependencies.AndroidX.Compose.composeUi)
+    implementation(Dependencies.AndroidX.Compose.composeActivity)
+    implementation(Dependencies.AndroidX.Compose.composeMaterial)
+    implementation(Dependencies.AndroidX.Compose.composePreview)
 }
