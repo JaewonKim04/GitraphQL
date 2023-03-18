@@ -11,7 +11,7 @@ object Dependencies {
         const val appCompat = "androidx.appcompat:appcompat:1.4.1"
 
         object Compose {
-            private const val version = "1.3.3"
+            private const val version = "1.3.1"
 
             const val composeUi = "androidx.compose.ui:ui:$version"
             const val composeMaterial = "androidx.compose.material:material:$version"
