@@ -3,6 +3,7 @@ import com.jaewon.gitraphql.Dependencies
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.apollographql.apollo3") version "3.7.5"
 }
 
 android {
@@ -35,6 +36,9 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    apollo {
+        packageName.set("com.jaewon.gitraphql")
+    }
 }
 
 dependencies {
@@ -50,4 +54,6 @@ dependencies {
     implementation(Dependencies.AndroidX.Compose.composeActivity)
     implementation(Dependencies.AndroidX.Compose.composeMaterial)
     implementation(Dependencies.AndroidX.Compose.composePreview)
+
+    implementation(Dependencies.Apollo.apollo)
 }

@@ -25,4 +25,8 @@ object Dependencies {
         const val androidXunit = "androidx.test.ext:junit:1.1.3"
         const val espresso = "androidx.test.espresso:espresso-core:3.4.0"
     }
+
+    object Apollo {
+        const val apollo = "com.apollographql.apollo3:apollo-runtime:3.7.5"
+    }
 }
