@@ -27,7 +27,7 @@ object Dependencies {
     }
 
     object Di {
-        private const val koinVersion = "3.4.0"
+        private const val koinVersion = "3.1.2"
         const val koin = "io.insert-koin:koin-core:$koinVersion"
         const val koinAndroid = "io.insert-koin:koin-android-compat:$koinVersion"
         const val koinViewModel = "io.insert-koin:koin-androidx-compose:$koinVersion"
