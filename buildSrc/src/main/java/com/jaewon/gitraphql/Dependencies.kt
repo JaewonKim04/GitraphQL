@@ -26,6 +26,13 @@ object Dependencies {
         const val espresso = "androidx.test.espresso:espresso-core:3.4.0"
     }
 
+    object Di {
+        private const val koinVersion = "3.4.0"
+        const val koin = "io.insert-koin:koin-core:$koinVersion"
+        const val koinAndroid = "io.insert-koin:koin-android-compat:$koinVersion"
+        const val koinViewModel = "io.insert-koin:koin-androidx-compose:$koinVersion"
+    }
+
     object Apollo {
         const val apollo = "com.apollographql.apollo3:apollo-runtime:3.7.5"
     }

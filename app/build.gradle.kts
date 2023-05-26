@@ -55,5 +55,9 @@ dependencies {
     implementation(Dependencies.AndroidX.Compose.composeMaterial)
     implementation(Dependencies.AndroidX.Compose.composePreview)
 
+    implementation(Dependencies.Di.koin)
+    implementation(Dependencies.Di.koinAndroid)
+    implementation(Dependencies.Di.koinViewModel)
+
     implementation(Dependencies.Apollo.apollo)
 }
