@@ -59,5 +59,9 @@ dependencies {
     implementation(Dependencies.Di.koinAndroid)
     implementation(Dependencies.Di.koinViewModel)
 
+    implementation(Dependencies.Mvi.orbit)
+    implementation(Dependencies.Mvi.orbitCompose)
+    implementation(Dependencies.Mvi.orbitViewModel)
+
     implementation(Dependencies.Apollo.apollo)
 }

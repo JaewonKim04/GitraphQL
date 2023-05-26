@@ -33,6 +33,13 @@ object Dependencies {
         const val koinViewModel = "io.insert-koin:koin-androidx-compose:$koinVersion"
     }
 
+    object Mvi {
+        private const val orbitVersion = "6.0.0"
+        const val orbit = "org.orbit-mvi:orbit-core:$orbitVersion"
+        const val orbitViewModel = "org.orbit-mvi:orbit-viewmodel:$orbitVersion"
+        const val orbitCompose = "org.orbit-mvi:orbit-compose:$orbitVersion"
+    }
+
     object Apollo {
         const val apollo = "com.apollographql.apollo3:apollo-runtime:3.7.5"
     }
